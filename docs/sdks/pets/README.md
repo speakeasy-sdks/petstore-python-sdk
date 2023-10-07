@@ -44,9 +44,7 @@ from swagger_petstore.models import operations
 
 s = swagger_petstore.SwaggerPetstore()
 
-req = operations.ListPetsRequest(
-    limit=21453,
-)
+req = operations.ListPetsRequest()
 
 res = s.pets.list_pets(req)
 
