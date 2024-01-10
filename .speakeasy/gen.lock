@@ -1,12 +1,12 @@
 lockVersion: 2.0.0
 id: 03f7e5f8-b699-4370-bb84-a4881f2cff07
 management:
-  docChecksum: 2516596125ef223fbbef6c434d22eaac
+  docChecksum: 1bdb7a6f8bf3995d4b40475228403253
   docVersion: 1.0.0
   speakeasyVersion: internal
-  generationVersion: 2.228.1
-  releaseVersion: 0.5.2
-  configChecksum: 77bc9f0b658cf61c11d7179ff68408e1
+  generationVersion: 2.230.3
+  releaseVersion: 0.5.3
+  configChecksum: eacac8525fecf4429f69f77d0cd87aba
   repoURL: https://github.com/speakeasy-sdks/petstore-python-sdk.git
   repoSubDirectory: .
   installationURL: https://github.com/speakeasy-sdks/petstore-python-sdk.git
