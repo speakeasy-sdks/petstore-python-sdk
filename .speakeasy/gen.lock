@@ -4,15 +4,15 @@ management:
   docChecksum: 1bdb7a6f8bf3995d4b40475228403253
   docVersion: 1.0.0
   speakeasyVersion: internal
-  generationVersion: 2.248.1
-  releaseVersion: 0.6.0
-  configChecksum: 47c007dbedddf4eb7d6c5ddf99d6a1e6
+  generationVersion: 2.250.12
+  releaseVersion: 0.7.0
+  configChecksum: dea11a212a6be78ffebf270bed1c1310
   repoURL: https://github.com/speakeasy-sdks/petstore-python-sdk.git
   repoSubDirectory: .
   installationURL: https://github.com/speakeasy-sdks/petstore-python-sdk.git
 features:
   python:
-    core: 4.4.4
+    core: 4.4.5
     globalServerURLs: 2.82.1
 generatedFiles:
   - src/swagger_petstore/sdkconfiguration.py
