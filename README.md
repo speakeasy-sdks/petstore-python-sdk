@@ -63,7 +63,7 @@ Handling errors in this SDK should largely match your expectations.  All operati
 
 ```python
 import swagger_petstore
-from swagger_petstore.models import shared
+from swagger_petstore.models import errors, shared
 
 s = swagger_petstore.SwaggerPetstore()
 
@@ -76,7 +76,7 @@ res = None
 try:
     res = s.pets.create_pets(req)
 except errors.SDKError as e:
-    print(e)  # handle exception
+    # handle exception
     raise(e)
 
 if res.status_code == 200:
